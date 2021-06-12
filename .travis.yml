@@ -21,7 +21,7 @@ matrix:
     - cd ..
 branches:
   only:
-  - main
+  - master
   
 notifications:
   slack: nomadsc21:UDDaW7zIFUEeMird5gUglzXV
