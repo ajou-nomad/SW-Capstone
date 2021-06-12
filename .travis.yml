@@ -4,6 +4,7 @@ install:
 - nvm alias default 10
 - npm install -g react-native-cli
 - npm install -g yarn
+- npm install --save @react-native-firebase/app
 matrix:
   include:
   - os: osx
@@ -15,7 +16,7 @@ matrix:
     script:
     - yarn install
     - cd ios
-    - pod init
+    - pod install
     - cd ..
     - yarn add jest --dev
     - yarn add @react-native-firebase/app
