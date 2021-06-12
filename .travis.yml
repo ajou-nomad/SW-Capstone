@@ -18,7 +18,6 @@ matrix:
     - pod init
     - yarn test
     - cd ios
-    - pod install
     - cd ..
 branches:
   only:
