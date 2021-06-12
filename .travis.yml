@@ -8,6 +8,7 @@ install:
 - npm install --save @react-native-firebase/messaging
 - yarn add @react-native-firebase/app
 - yarn add @react-native-firebase/messaging
+
 matrix:
   include:
   - os: osx
@@ -18,9 +19,7 @@ matrix:
     - brew install applesimutils
     script:
     - yarn install
-    - cd ios
-    - pod install
-    - cd ..
+    - react-native link react-native-firebase
     - yarn add jest --dev
     - yarn add @react-native-firebase/app
     - yarn test
