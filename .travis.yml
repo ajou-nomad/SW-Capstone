@@ -22,6 +22,5 @@ matrix:
 branches:
   only:
   - master
-  
 notifications:
   slack: nomadsc21:UDDaW7zIFUEeMird5gUglzXV
