@@ -21,7 +21,7 @@ matrix:
     - yarn install
     - yarn add jest --dev
     - yarn add @react-native-firebase/app
-    - yarn test
+    - npm test
 
 branches:
   only:
