@@ -1,0 +1,26 @@
+install:
+- nvm install 10
+- nvm use 10
+- nvm alias default 10
+- npm install -g react-native-cli
+- npm install -g yarn
+- npm install --save @react-native-community/async-storage
+matrix:
+  include:
+  - os: osx
+    osx_image: xcode11.3
+    language: objective-c
+    before_install:
+    - brew tap wix/brew
+    - brew install applesimutils
+    script:
+    - yarn install
+    - yarn add jest --dev
+    - cd ios
+    - pod install
+    - cd ..
+branches:
+  only:
+  - main
+notifications:
+  slack: nomadsc21:UDDaW7zIFUEeMird5gUglzXV
