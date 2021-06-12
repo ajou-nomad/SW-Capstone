@@ -16,9 +16,9 @@ matrix:
     - brew install applesimutils
     script:
     - npm install --save-dev jest
-    - cd ios 
-    - pod install
-    - cd ..
+    //- cd ios 
+    //- pod install
+    //- cd ..
     - npm test
 
 branches:
