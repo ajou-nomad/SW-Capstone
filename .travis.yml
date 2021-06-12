@@ -19,7 +19,6 @@ matrix:
     - cd ios
     - pod install
     - cd ..
-    
 branches:
   only:
   - master
