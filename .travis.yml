@@ -19,7 +19,7 @@ matrix:
     - brew install applesimutils
     script:
     - yarn install
-    - yarn add jest --dev
+    - npm install --save-dev jest
     - yarn add @react-native-firebase/app
     - npm test
 
