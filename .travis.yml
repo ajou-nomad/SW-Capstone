@@ -5,7 +5,9 @@ install:
 - npm install -g react-native-cli
 - npm install -g yarn
 - npm install --save @react-native-firebase/app
+- npm install --save @react-native-firebase/messaging
 - yarn add @react-native-firebase/app
+- yarn add @react-native-firebase/messaging
 matrix:
   include:
   - os: osx
