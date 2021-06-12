@@ -14,12 +14,13 @@ matrix:
     - brew install applesimutils
     script:
     - yarn install
-    - yarn add jest --dev
+    - cd ios
     - pod init
+    - cd ..
+    - yarn add jest --dev
     - yarn add @react-native-firebase/app
     - yarn test
-    - cd ios
-    - cd ..
+
 branches:
   only:
   - master
