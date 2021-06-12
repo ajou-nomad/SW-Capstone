@@ -4,8 +4,7 @@ install:
 - nvm alias default 10
 - npm install -g react-native-cli
 - npm install -g yarn
-- yarn add @react-native-firebase/app
-- yarn add @react-native-firebase/messaging
+
 
 matrix:
   include:
