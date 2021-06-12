@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, {useEffect, useState, useContext} from 'react';
-import messaging from '@react-native-firebase/messaging';
+//import messaging from '@react-native-firebase/messaging';
 import Toast from 'react-native-toast-message';
 import {NavigationContainer} from '@react-navigation/native';
 import RootNavigation from './navigation/RootNavigation';
