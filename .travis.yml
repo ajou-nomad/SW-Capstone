@@ -15,9 +15,7 @@ matrix:
     - brew tap wix/brew
     - brew install applesimutils
     script:
-    - yarn install
     - npm install --save-dev jest
-    - yarn add @react-native-firebase/app
     - npm test
 
 branches:
