@@ -19,3 +19,4 @@ describe('<Counter />', () => {
     expect(1).toBe(1);
   });
     });
+export default {};
