@@ -15,6 +15,7 @@ matrix:
     script:
     - yarn install
     - yarn add jest --dev
+    - pod init
     - yarn test
     - cd ios
     - pod install
