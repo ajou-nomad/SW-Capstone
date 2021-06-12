@@ -16,6 +16,7 @@ matrix:
     - yarn install
     - yarn add jest --dev
     - pod init
+    - yarn add @react-native-firebase/app
     - yarn test
     - cd ios
     - cd ..
