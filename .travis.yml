@@ -4,8 +4,6 @@ install:
 - nvm alias default 10
 - npm install -g react-native-cli
 - npm install -g yarn
-
-
 matrix:
   include:
   - os: osx
@@ -18,10 +16,6 @@ matrix:
     - npm install --save-dev jest
     - yarn test
     - npm test
-    //- cd ios 
-    //- pod install
-    //- cd ..
-
 branches:
   only:
   - master
