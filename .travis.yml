@@ -4,7 +4,7 @@ install:
 - nvm alias default 10
 - npm install -g react-native-cli
 - npm install -g yarn
-
+- npm install --save @react-native-firebase/app
 matrix:
   include:
   - os: osx
