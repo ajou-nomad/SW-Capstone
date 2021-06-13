@@ -16,11 +16,11 @@ matrix:
     - brew install applesimutils
     script:
     - npm install --save-dev jest
+    - yarn test
+    - npm test
     //- cd ios 
     //- pod install
     //- cd ..
-    - yarn test
-    - npm test
 
 branches:
   only:
