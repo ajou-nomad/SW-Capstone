@@ -14,8 +14,11 @@ import renderer from 'react-test-renderer';
   //expect(1).toBe(1);
 //});
 
-describe('<Counter />', () => {
-  it('성공적으로 렌더링되어야 합니다.', () => {
-    expect(1).toBe(1);
-  });
-    });
+
+it('배수가 반환되어야 한다.', () => {
+	const functionData = renderer.create(
+		<Function />
+	).getInstance()
+
+	expect(4).toEqual(4)
+});
