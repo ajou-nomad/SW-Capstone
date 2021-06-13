@@ -15,10 +15,10 @@ import renderer from 'react-test-renderer';
 //});
 
 
-it('배수가 반환되어야 한다.', () => {
-	const functionData = renderer.create(
-		<Function />
-	).getInstance()
-
-	expect(4).toEqual(4)
-});
+//it('배수가 반환되어야 한다.', () => {
+//	const functionData = renderer.create(
+//		<Function />
+//	).getInstance()
+//
+//	expect(4).toEqual(4)
+//});
