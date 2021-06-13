@@ -14,7 +14,7 @@ matrix:
     - brew install applesimutils
     script:
     - npm install --save-dev jest
-    - yarn test
+    - yarn test App-test.js
     - npm test
 branches:
   only:
